@@ -32,7 +32,7 @@ Script Usage:  `. ./mysql_restore.sh [1|2|3] [start|stop]`
 
 2. Connect to the running container of your choice using following command
 
-   `docker exec -it host1-mysql-1` or  `docker exec -it hostw-mysql-1` or  `docker exec -it host3-mysql-1` 
+   `docker exec -it host1-mysql-1`  OR   `docker exec -it hostw-mysql-1`   OR   `docker exec -it host3-mysql-1` 
 
 3. Once logged in to the container, run the following mysql command to connect to the database
 
