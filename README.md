@@ -10,7 +10,7 @@
 
 1. mysql_restore.sh
 2. docker-compose.yml
-3. backups directory
+3. backups directory with backups in `host[n]_fulldump_[date +"%Y%m%d_%H%M%S"].sql.gz` format
 
 ## Usage:
 
