@@ -14,9 +14,10 @@
 
 ## Usage:
 
-Script Usage:  `. ./mysql_restore.sh [1|2|3] [start|stop]`
+1. Clone the git repository
 
-1. Run the following bash script to start the mysql containers
+2. Script Usage:  `. ./mysql_restore.sh [1|2|3] [start|stop]`
+Run the following bash script to start the mysql containers
    
 `. ./mysql_restore.sh 3 start`
 
