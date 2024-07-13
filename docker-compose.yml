@@ -1,0 +1,11 @@
+version: '3.8'
+
+services:
+  mysql:
+    image: mysql:latest
+    environment:
+      MYSQL_ROOT_PASSWORD: root
+    ports:
+      - "${PORT}:3306"
+    volumes:
+      - ./restores/${SNAP}:/docker-entrypoint-initdb.d/${SNAP}
