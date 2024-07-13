@@ -16,7 +16,13 @@
 
 1. Clone the git repository
 
-2. Script Usage:  `. ./mysql_restore.sh [1|2|3] [start|stop]`
+       git clone https://github.com/kunalsnehi0710/goodgame-mysql-challenge.git
+
+2. Go to the root path
+
+       cd goodgame-mysql-challenge
+
+3. Script Usage:  `. ./mysql_restore.sh [1|2|3] [start|stop]`
 
    Run the following bash script to start the mysql containers
 
@@ -24,7 +30,7 @@
 
   (to run only 1 or 2 mysql hosts, pass the number of hosts as 1 or 2)
 
-  3. To tier down everything with one command
+   To tier down everything with one command
      
          . ./mysql_restore.sh 3 stop
 
