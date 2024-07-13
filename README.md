@@ -44,5 +44,8 @@ Script Usage:  `. ./mysql_restore.sh [1|2|3] [start|stop]`
 
 5. Execute the SQL queries of your choice
 
+## Assumptions:
+
+1. The naming convention of the backup files in the `backups/` directory remains constant.
 
 
