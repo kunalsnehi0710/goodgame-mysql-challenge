@@ -35,6 +35,7 @@ for (( i = 1; i <= $hosts; i++)); do
     docker-compose -p host$i --env-file mysql.env up -d
 done
 fi
+
 # To destroy and cleanup mysql instances/volumes
 if [ $state == "stop" ]; then
 for (( i = 1; i <= $hosts; i++)); do
