@@ -34,9 +34,13 @@
 
 2. Connect to the running container of your choice using following command
 
+host1:
+
        docker exec -it host1-mysql-1
+host2:
    
        docker exec -it host2-mysql-1
+host3:
 
        docker exec -it host3-mysql-1
 
