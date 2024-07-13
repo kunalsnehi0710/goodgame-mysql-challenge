@@ -18,15 +18,15 @@
 
 2. Script Usage:  `. ./mysql_restore.sh [1|2|3] [start|stop]`
 
-Run the following bash script to start the mysql containers
+   Run the following bash script to start the mysql containers
    
-`. ./mysql_restore.sh 3 start`
+     `. ./mysql_restore.sh 3 start`
 
-(to run only 1 or 2 mysql hosts, pass the number of hosts as 1 or 2)
+  (to run only 1 or 2 mysql hosts, pass the number of hosts as 1 or 2)
 
-3. To tier down everything with one command
+  3. To tier down everything with one command
 
-`. ./mysql_restore.sh 3 stop`
+    `. ./mysql_restore.sh 3 stop`
 
 ## Connect to mysql database in docker-containers:
 
