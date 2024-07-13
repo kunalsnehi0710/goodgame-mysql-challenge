@@ -46,7 +46,7 @@ host3:
 
 4. Once logged in to the container, run the following mysql command to connect to the database
 
-   `mysql -u root -p`
+       mysql -u root -p
 
    When prompted for password, supply the password as `root`
 
