@@ -1,4 +1,4 @@
-# Solution to the GoodGame MySQL Challenge
+# Solution
 
 ## System Requirements:
 
