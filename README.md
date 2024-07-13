@@ -34,17 +34,21 @@
 
 2. Connect to the running container of your choice using following command
 
-   `docker exec -it host1-mysql-1`  OR   `docker exec -it host2-mysql-1`   OR   `docker exec -it host3-mysql-1` 
+       docker exec -it host1-mysql-1
+   
+       docker exec -it host2-mysql-1
 
-3. Once logged in to the container, run the following mysql command to connect to the database
+       docker exec -it host3-mysql-1
+
+4. Once logged in to the container, run the following mysql command to connect to the database
 
    `mysql -u root -p`
 
    When prompted for password, supply the password as `root`
 
-4. Database Connected.
+5. Database Connected.
 
-5. Execute the SQL queries of your choice
+6. Execute the SQL queries of your choice
 
 ## Assumptions:
 
