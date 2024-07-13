@@ -1,2 +1,2 @@
 # goodgame-mysql-challenge
-goodgame-mysql-challenge
+Goodgame mysql Challenge
