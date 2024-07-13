@@ -48,11 +48,15 @@ host3:
 
        mysql -u root -p
 
-   When prompted for password, supply the password as `root`
+   When prompted for password, supply the below password,
 
-5. Database Connected.
+   Password:
+   
+       root
 
-6. Execute the SQL queries of your choice
+6. Database Connected.
+
+7. Execute the SQL queries of your choice
 
 ## Assumptions:
 
