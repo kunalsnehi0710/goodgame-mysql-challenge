@@ -13,7 +13,8 @@
 3. backups directory
 
 ## Usage:
-`. ./mysql_restore.sh [1|2|3] [start|stop]`
+
+Script Usage:  `. ./mysql_restore.sh [1|2|3] [start|stop]`
 
 1. Run the following bash script to start the mysql containers
    
@@ -25,7 +26,7 @@
 
 `. ./mysql_restore.sh 3 stop`
 
-## Connect to mysql docker-containers:
+## Connect to mysql database in docker-containers:
 
 1. Execute the `docker ps` command to view the running containers
 2. Connect to the running container of your choice using following command
